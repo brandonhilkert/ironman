@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport' />
+    <meta content='yes' name='apple-mobile-web-app-capable' />
+    <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
+    <title>Ironman</title>
+    <meta content='A grocery list application to share among friends.' name='description' />
+    <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.no-responsive.no-icons.min.css' rel='stylesheet' />
+    <link href='//netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css' rel='stylesheet' />
+    <link href='<%= asset_path('application.css') %>' rel='stylesheet' type='text/css' />
+    <link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144' type='image/png' />
+    <link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72' type='image/png' />
+    <link href='/apple-touch-icon.png' rel='apple-touch-icon' type='image/png' />
+    <link href='/favicon.png' rel='shortcut icon' type='image/png' />
+  </head>
+  <body>
+    <div class='navbar navbar-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand' href='#'>
+            <i class='icon-shopping-cart'></i>
+            Brando's Grocery List
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="main"></div>
+
+    <script type="text/x-handlebars-template" id="index-template">
+      <button class="btn btn-large btn-primary">New List</button>
+    </script>
+
+    <script type="text/x-handlebars-template" id="new-item-template">
+      <input name="name" id="item" type="text" placeholder="Name" size="30" />
+      <button class="btn btn-primary">Add</button>
+    </script>
+
+    <script type="text/x-handlebars-template" id="item-template">
+      <span class="name">{{ name }}</span>
+      <div class="actions pull-right">
+        <button class="btn btn-danger btn-small delete" data-name="{{ name }}">Delete</button>
+        <button class="btn btn-small cancel">Cancel</button>
+      </div>
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+    <script src="//raw.github.com/documentcloud/backbone/master/backbone-min.js"></script>
+    <script src=""></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.rc.1/handlebars.min.js"></script>
+    <script src="<%= asset_path('application.js') %>"></script>
+    <script>
+      $(function() {
+        Ironman.app = new Ironman.Routers.App();
+        Backbone.history.start();
+      });
+    </script>
+  </body>
+</html>
