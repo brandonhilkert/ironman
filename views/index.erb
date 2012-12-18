@@ -21,41 +21,45 @@
       <div class='navbar-inner'>
         <div class='container'>
           <a class='brand' href='#'>
-            <i class='icon-shopping-cart'></i>
-            Brando's Grocery List
+            <i class='icon-bullhorn'></i>
+            Brando's Training
           </a>
         </div>
       </div>
     </div>
 
-    <div id="main"></div>
+    <div id="main"><div id="time"></div></div>
 
     <script type="text/x-handlebars-template" id="index-template">
-      <button class="btn btn-large btn-primary">New List</button>
+      <button class="btn btn-large btn-danger">Start Training!</button>
     </script>
 
-    <script type="text/x-handlebars-template" id="new-item-template">
-      <input name="name" id="item" type="text" placeholder="Name" size="30" />
-      <button class="btn btn-primary">Add</button>
+    <script type="text/x-handlebars-template" id="workout-title-template">
+      {{ title }}
     </script>
 
-    <script type="text/x-handlebars-template" id="item-template">
-      <span class="name">{{ name }}</span>
-      <div class="actions pull-right">
-        <button class="btn btn-danger btn-small delete" data-name="{{ name }}">Delete</button>
-        <button class="btn btn-small cancel">Cancel</button>
+    <script type="text/x-handlebars-template" id="workout-template">
+      <div class="day-of-week {{ isToday }}">{{ dayOfWeek }}</div>
+      <div class="day-activities">
+        <span class="activity">Run:</span>{{ run }}
+        <br />
+        <span class="activity">Bike:</span>{{ bike }}
+        <br />
+        <span class="activity">Swim:</span>{{ swim }}
+        <br />
       </div>
+      <br class="clear" />
     </script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
     <script src="//raw.github.com/documentcloud/backbone/master/backbone-min.js"></script>
-    <script src=""></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.rc.1/handlebars.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
     <script src="<%= asset_path('application.js') %>"></script>
     <script>
       $(function() {
-        Ironman.app = new Ironman.Routers.App();
+        Ironman.app = new Ironman.Routers.App(<%= @data %>);
         Backbone.history.start();
       });
     </script>

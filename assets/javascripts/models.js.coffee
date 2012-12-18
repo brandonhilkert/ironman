@@ -1,14 +1,19 @@
-class Grocery.Models.List extends Backbone.Model
-  url: ->
-    "/lists"
+class Ironman.Models.Workout extends Backbone.Model
+  initialize: ->
+    @.set "isToday", @isToday()
+    @.set "dayOfWeek", @dayOfWeek()
 
-class Grocery.Models.Item extends Backbone.Model
+  isToday: ->
+    Date.today().getDay() == @get("day")
 
-class Grocery.Collections.Items extends Backbone.Collection
-  initialize: (models, options) ->
-    @listId = options.listId
+  dayOfWeek: ->
+    dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
 
-  model: Grocery.Models.Item
+    if @.get("day") == 7
+      dayNames[0]
+    else
+      dayNames[@.get("day")]
 
-  url: ->
-    "/lists/" + @listId + "/items"
+class Ironman.Collections.Workouts extends Backbone.Collection
+  model: Ironman.Models.Workout
+

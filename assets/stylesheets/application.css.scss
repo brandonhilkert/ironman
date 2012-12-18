@@ -2,6 +2,14 @@ body {
   font-size: 1.2em;
 }
 
+ul {
+  list-style-type: none
+}
+
+.clear {
+  clear: both;
+}
+
 .navbar-inner {
   padding-top: 20px;
 }
@@ -23,7 +31,7 @@ body {
   }
 }
 
-.items {
+.workouts {
   margin-left: 0;
 
   li:first-child {
@@ -31,20 +39,36 @@ body {
 
   }
 
-  .item {
+  .workout {
     list-style-type: none;
     border-bottom: 1px solid #ddd;
     padding: 4%;
     -webkit-tap-highlight-color: white;
+  }
 
-    .actions {
-      display: none;
-    }
+  .day-of-week {
+    color: grey;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    float: left;
+    width: 10%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
 
-    form {
-      float: left;
-      margin-right: 20px;
-    }
+  .day-activities {
+    float: left;
+    width: 90%;
+  }
+
+  .activity {
+    display: inline-block;
+    width: 20%;
+    color: grey;
+    font-size: 0.8em;
   }
 
   a {
@@ -56,4 +80,8 @@ body {
     width: 70%;
     float: left;
   }
+}
+
+h3 {
+  margin-left: 10px;
 }

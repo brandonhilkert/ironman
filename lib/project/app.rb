@@ -21,32 +21,9 @@ module Project
     end
 
     get '/' do
+      training_data = YAML.load_file('data/trainings.yml').fetch("competitive")
+      @data = MultiJson.dump(training_data)
       erb :index
     end
-
-    post '/lists' do
-      list = Project::List.new()
-      MultiJson.dump({ id: list.id })
-    end
-
-    get '/lists/:list_id/items' do
-      content_type :json
-      @list = Project::List.new(params[:list_id])
-      MultiJson.dump @list.items.map{ |k, v| { id: k, name: v } }
-    end
-
-    post '/lists/:list_id/items' do
-      list = Project::List.new(params[:list_id])
-      body = MultiJson.load request.body.read
-      item = list.add_item body.fetch("name")
-      MultiJson.dump item
-    end
-
-    delete '/lists/:list_id/items/:id' do
-      list = Project::List.new(params[:list_id])
-      list.remove_item(params[:id])
-      :ok
-    end
-
   end
 end

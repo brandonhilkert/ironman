@@ -1,0 +1,78 @@
+competitive:
+  weeks:
+    -
+      week: 1
+      days:
+        -
+          day: 1
+          run:  REST
+          bike: REST
+          swim: REST
+        -
+          day: 2
+          run:  0:30 Z2
+          bike:
+          swim: 300 wu, 8x50 DR, 12x100 @20sec, 8x50 DR, 200 cd
+        -
+          day: 3
+          run:  0:15 Z2
+          bike: "Trans: 0:30 Z2 (QC)"
+          swim:
+        -
+          day: 4
+          run:
+          bike: 0:30 Z1 (100+ RPM)
+          swim: 300 wu, 8x50 DR, 3x125 @20sec, 2x175 @30sec, 3x125 @20sec, 8x50 DR, 200 cd
+        -
+          day: 5
+          run:  0:30 Z2
+          bike:
+          swim:
+        -
+          day: 6
+          run:
+          bike: 1:00 Z2
+          swim:
+        -
+          day: 7
+          run:  0:45 Z1 to Z2
+          bike:
+          swim:
+    -
+      week: 2
+      days:
+        -
+          day: 1
+          run:  REST
+          bike: REST
+          swim: REST
+        -
+          day: 2
+          run:  0:30 Z2
+          bike:
+          swim: 300wu, 8x50 DR, 16x25 @10sec, 1x400 @60sec, 16x25 @10sec, 8x50 DR, 200 cd
+        -
+          day: 3
+          run:  0:15 Z2
+          bike: "Trans: 0:30 Z2 (QC)"
+          swim:
+        -
+          day: 4
+          run:
+          bike: 0:30 Z1 (100+ RPM)
+          swim: 300wu, 8x50 DR, 1x300 @40sec, 3x200 @30sec, 1x300 @30sec, 8x50 DR, 200 cd
+        -
+          day: 5
+          run:  0:45 Z2
+          bike:
+          swim:
+        -
+          day: 6
+          run:
+          bike: 1:30 Z2
+          swim:
+        -
+          day: 7
+          run:  1:00 Z1 to Z2
+          bike:
+          swim:
