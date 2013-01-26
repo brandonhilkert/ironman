@@ -11,10 +11,14 @@
     if localStorage.getItem("startDate")
       new Date(localStorage.getItem("startDate"))
 
+  saveWeek: (week) ->
+    localStorage.setItem "week", parseInt(week)
+
   currentWeek: ->
-    now = (new Date()).getTime()
-    startTime = @startDate().getTime()
-    parseInt (now - startTime) / (24*3600*1000*7)
+    # now = (new Date()).getTime()
+    # startTime = @startDate().getTime()
+    # parseInt (now - startTime) / (24*3600*1000*7)
+    parseInt(localStorage.getItem("week")) || 1
 
   getWorkoutsForWeek: (data, value) ->
     _.find(data.weeks, (week) ->

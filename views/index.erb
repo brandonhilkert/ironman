@@ -9,7 +9,7 @@
     <title>Ironman</title>
     <meta content='A grocery list application to share among friends.' name='description' />
     <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.no-responsive.no-icons.min.css' rel='stylesheet' />
-    <link href='//netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css' rel='stylesheet' />
+    <link href='//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css' rel='stylesheet' />
     <link href='<%= asset_path('application.css') %>' rel='stylesheet' type='text/css' />
     <link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144' type='image/png' />
     <link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72' type='image/png' />
@@ -35,7 +35,9 @@
     </script>
 
     <script type="text/x-handlebars-template" id="workout-title-template">
-      {{ title }}
+      <i class="icon-circle-arrow-left" data-behavior="prev"></i>
+      <h3>Week {{ week }}</h3>
+      <i class="icon-circle-arrow-right" data-behavior="next"></i>
     </script>
 
     <script type="text/x-handlebars-template" id="workout-template">

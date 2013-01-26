@@ -10,7 +10,7 @@ class Ironman.Views.Index extends Backbone.View
 
   startTraining: ->
     localStorage.setItem "startDate", (new Date())
-    currentWeek = Ironman.currentWeek()
+    week = Ironman.currentWeek()
     Ironman.app.navigate "/weeks/#{currentWeek}", trigger: true
 
 class Ironman.Views.Workouts extends Backbone.View
@@ -40,12 +40,21 @@ class Ironman.Views.Workout extends Backbone.View
     @
 
 class Ironman.Views.WorkoutTitle extends Backbone.View
-  tagName: "h3"
   template: template("workout-title")
 
-  title: ->
-    "Week #{@options.currentWeek}: #{Date.today().add(parseInt(@options.currentWeek)).weeks().monday().toString("MM/dd")} - #{Date.today().add(parseInt(@options.currentWeek) + 1).weeks().sunday().toString("MM/dd")}"
+  events:
+    "click [data-behavior~='prev']": "prevWeek"
+    "click [data-behavior~='next']": "nextWeek"
+
+  # title: ->
+  #   "Week #{@options.week}: #{Date.today().add(parseInt(@options.week)).weeks().monday().toString("MM/dd")} - #{Date.today().add(parseInt(@options.week) + 1).weeks().sunday().toString("MM/dd")}"
+
+  prevWeek: ->
+    Ironman.app.navigate "/weeks/#{parseInt(@options.week) - 1}", trigger: true
+
+  nextWeek: ->
+    Ironman.app.navigate "/weeks/#{parseInt(@options.week) + 1}", trigger: true
 
   render: ->
-    @$el.html @template({ title: @title() })
+    @$el.html @template({ week: @options.week })
     @
