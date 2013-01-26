@@ -40,6 +40,7 @@ class Ironman.Views.Workout extends Backbone.View
     @
 
 class Ironman.Views.WorkoutTitle extends Backbone.View
+  className: "title"
   template: template("workout-title")
 
   events:

@@ -1,5 +1,4 @@
 body {
-  font-size: 1.2em;
 }
 
 ul {
@@ -10,8 +9,16 @@ ul {
   clear: both;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+
 .navbar-inner {
   padding-top: 20px;
+}
+
+.title {
+  margin-left: 20px;
 }
 
 .new-item {
@@ -73,7 +80,6 @@ h3 {
     display: inline-block;
     width: 20%;
     color: grey;
-    font-size: 0.8em;
   }
 
   a {
