@@ -1,4 +1,7 @@
-require "pry"
+begin
+  require 'pry'
+rescue LoadError
+end
 
 module Project
   class App < Sinatra::Base
