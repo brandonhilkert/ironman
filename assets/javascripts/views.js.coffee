@@ -44,18 +44,24 @@ class Ironman.Views.WorkoutTitle extends Backbone.View
   template: template("workout-title")
 
   events:
-    "click [data-behavior~='prev']": "prevWeek"
-    "click [data-behavior~='next']": "nextWeek"
+    "click [data-behavior~='prev']": "goToPrevWeek"
+    "click [data-behavior~='next']": "goToNextWeek"
 
   # title: ->
   #   "Week #{@options.week}: #{Date.today().add(parseInt(@options.week)).weeks().monday().toString("MM/dd")} - #{Date.today().add(parseInt(@options.week) + 1).weeks().sunday().toString("MM/dd")}"
 
-  prevWeek: ->
+  showPrevWeek: ->
+    if @options.week is 1
+      false
+    else
+      true
+
+  goToPrevWeek: ->
     Ironman.app.navigate "/weeks/#{parseInt(@options.week) - 1}", trigger: true
 
-  nextWeek: ->
+  goToNextWeek: ->
     Ironman.app.navigate "/weeks/#{parseInt(@options.week) + 1}", trigger: true
 
   render: ->
-    @$el.html @template({ week: @options.week })
+    @$el.html @template({ week: @options.week, showPrevWeek: @showPrevWeek() })
     @

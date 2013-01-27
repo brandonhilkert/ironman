@@ -22,7 +22,7 @@ class Ironman.Routers.App extends Backbone.Router
     dataWorkouts = Ironman.getWorkoutsForWeek Ironman.data, Ironman.currentWeek()
     Ironman.workouts = new Ironman.Collections.Workouts(dataWorkouts)
 
-    titleView = new Ironman.Views.WorkoutTitle week: Ironman.currentWeek()
+    window.titleView = new Ironman.Views.WorkoutTitle week: Ironman.currentWeek()
     @$mainEl.html titleView.render().el
 
     workoutsView = new Ironman.Views.Workouts collection: Ironman.workouts
