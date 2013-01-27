@@ -45,14 +45,24 @@
     </script>
 
     <script type="text/x-handlebars-template" id="workout-template">
-      <div class="day-of-week {{ isToday }}">{{dayOfWeek}}</div>
-      <div class="day-activities">
-        <span class="activity">Run:</span>{{run}}
+      <div class="day-of-week">
+        {{dayOfWeek}}
+      </div>
+      <div class="activities">
+        <div class="sports">
+          Run:
+          <br />
+          Bike:
+          <br />
+          Swim:
+        </div>
+        <div class="details">
+        {{run}}
         <br />
-        <span class="activity">Bike:</span>{{bike}}
+        {{bike}}
         <br />
-        <span class="activity">Swim:</span>{{swim}}
-        <br />
+        {{swim}}
+        </div>
       </div>
       <br class="clear" />
     </script>

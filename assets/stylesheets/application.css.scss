@@ -68,27 +68,29 @@ h3 {
   }
 
   .day-of-week {
+    font-size: 1.2m;
     color: grey;
-    font-size: 0.8em;
-    text-transform: capitalize;
     float: left;
-    width: 10%;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    width: 40px;
+    float: left;
+
+    margin-top: 20px;
+    padding-left: 10px;
   }
 
-  .day-activities {
+  .activities {
     float: left;
-    width: 90%;
-  }
 
-  .activity {
-    display: inline-block;
-    width: 20%;
-    color: grey;
+    .sports {
+      width: 60px;
+      float: left;
+      color: grey;
+    }
+
+    .details {
+      width: 250px;
+      float: left;
+    }
   }
 
   a {
