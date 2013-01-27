@@ -1,5 +1,4 @@
 body {
-  font-size: 1.1em;
 }
 
 ul {
@@ -71,26 +70,22 @@ h3 {
     font-size: 1.2m;
     color: grey;
     float: left;
-    width: 40px;
+    width: 30px;
     float: left;
 
     margin-top: 20px;
     padding-left: 10px;
   }
 
-  .activities {
+  .sports {
+    width: 45px;
     float: left;
+    color: grey;
+  }
 
-    .sports {
-      width: 60px;
-      float: left;
-      color: grey;
-    }
-
-    .details {
-      width: 250px;
-      float: left;
-    }
+  .details {
+    width: 210px;
+    float: left;
   }
 
   a {
