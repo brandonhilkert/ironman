@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
+<html lang='en' manifest="/offline.appcache">
   <head>
     <meta charset='utf-8' />
     <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible' />
@@ -9,8 +10,6 @@
     <meta name='apple-mobile-web-app-status-bar-style' content='black' />
     <title>Ironman</title>
     <meta name='description' content='A mobile friendly Ironman training schedule.' />
-    <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.no-responsive.no-icons.min.css' rel='stylesheet' />
-    <link href='//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css' rel='stylesheet' />
     <link href='<%= asset_path('application.css') %>' rel='stylesheet' type='text/css' />
     <link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144' type='image/png' />
     <link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72' type='image/png' />
@@ -66,11 +65,6 @@
       <br class="clear" />
     </script>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
-    <script src="//raw.github.com/documentcloud/backbone/master/backbone-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.rc.1/handlebars.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
     <script src="<%= asset_path('application.js') %>"></script>
     <script>
       $(function() {
