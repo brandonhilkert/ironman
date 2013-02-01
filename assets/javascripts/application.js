@@ -3,6 +3,7 @@
 //= require "lib/backbone.min"
 //= require "lib/handlebars.min"
 //= require "lib/date.min"
+//= require "data"
 //= require "app"
 //= require "models"
 //= require "views"

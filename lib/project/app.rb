@@ -30,8 +30,6 @@ module Project
     end
 
     get '/' do
-      training_data = YAML.load_file('data/trainings.yml').fetch("competitive")
-      @data = MultiJson.dump(training_data)
       erb :index
     end
   end

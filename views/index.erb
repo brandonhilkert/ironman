@@ -67,7 +67,7 @@
     <script src="<%= asset_path('application.js') %>"></script>
     <script>
       $(function() {
-        Ironman.app = new Ironman.Routers.App(<%= @data %>);
+        Ironman.app = new Ironman.Routers.App(WORKOUTS);
         Backbone.history.start();
       });
     </script>
