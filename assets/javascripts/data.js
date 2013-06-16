@@ -759,5 +759,385 @@ WORKOUTS = {
       "bike": "1:15 Z1 (100+ RPM)",
       "run": "2:00 Z1 to Z2"
     }]
+  }, {
+    "week": 21,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 5x200 @ 30 sec, 5x100 @ 20 sec, 5x50 @ 10 sec, 6x25 @ 5 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:15 Z2 (at 0:10 insert 3x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 0:45 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 3x150 @ 30 sec, 4x250 @ 30 sec, 3x150 @ 20 sec, 8x50DR, 300cd",
+      "bike": "1:30 Z2 (at 0:15, insert 4x7 min. Z4 @ 4 min. Spin",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "3,500 comfortable",
+      "bike": null,
+      "run": "1:15 Z2 (at 1:00, insert 10 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 4:00 Z2 (QC)",
+      "run": "0:45 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:15 Z1 (100+ RPM)",
+      "run": "1:45 Z1 to Z2"
+    }]
+  }, {
+    "week": 22,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 12x75 @ 20 sec, 12x50 @ 15 sec, 12x25 @ 10 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:15 Z2"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 0:45 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 5x400 @ 45 sec, 8x50DR, 300cd",
+      "bike": "1:30 Z2",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "500 wu, 8x50DR, 6x (50+100+150) @ 20 sec, 8x50DR, 300 cd",
+      "bike": null,
+      "run": "1:30 Z2"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 5:00 Z2 (QC)",
+      "run": "0:45 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "0:45 Z1 (100+ RPM)",
+      "run": "2:00 Z1 to Z2"
+    }]
+  }, {
+    "week": 23,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 5x200 @ 30 sec, 5x100 @ 20 sec, 5x50 @ 10 sec, 6x25 @ 5 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:00 Z2 (at 0:10 insert 5x1 min Z4 @ 1 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 0:45 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "0:30 easy",
+      "bike": "1:00 Z2 (at 0:15, insert 5x1 min. Z4 @ 1 min. Spin",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": null,
+      "bike": null,
+      "run": "0:40 Z1 (at 0:10 insert 1 min. Z4 @ 1 min Jog)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "0:14 Z1 - easy",
+      "run": "0:20 Z1 - easy"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "Race",
+      "run": "Race"
+    }]
+  }, {
+    "week": 24,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 5x200 @ 30 sec, 5x100 @ 20 sec, 5x50 @ 10 sec, 6x25 @ 5 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:15 Z2 (at 0:10 insert 3x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 1:00 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 3x150 @ 30 sec, 4x250 @ 30 sec, 3x150 @ 20 sec, 8x50DR, 300cd",
+      "bike": "1:30 Z2 (at 0:10, insert 15 min. Z4",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "3,500 comfortable",
+      "bike": null,
+      "run": "1:30 Z2 (at 1:10, insert 10 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 5:00 Z2 (at 4:45 insert 7.5 min Z4)(QC)",
+      "run": "1:00 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:00 Z1 (100+ RPM)",
+      "run": "2:15 Z1 to Z2"
+    }]
+  }, {
+    "week": 25,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 12x75 @ 20 sec, 12x50 @ 15 sec, 12x25 @ 10 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:00 Z2 (at 0:10 insert 4x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 1:00 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 5x400 @ 45 sec, 8x50DR, 300cd",
+      "bike": "1:30 Z2 (at 0:10, insert 20 min. Z4",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "500 wu, 8x50DR, 6x (50+100+150) @ 20 sec, 8x50DR, 300 cd",
+      "bike": null,
+      "run": "1:30 Z2 (at 1:10, insert 10 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 5:30 Z2 (at 5:15 insert 10 min Z4)(QC)",
+      "run": "1:00 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:30 Z1 (100+ RPM)",
+      "run": "2:30 Z1 to Z2"
+    }]
+  }, {
+    "week": 26,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 5x200 @ 30 sec, 5x100 @ 20 sec, 5x50 @ 10 sec, 6x25 @ 5 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:00 Z2 (at 0:10 insert 5x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 1:00 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 3x150 @ 30 sec, 4x250 @ 30 sec, 3x150 @ 20 sec, 8x50DR, 300cd",
+      "bike": "1:30 Z2 (at 0:55, insert 25 min. Z4",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "3,500 comfortable",
+      "bike": null,
+      "run": "1:30 Z2 (at 1:10, insert 12 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 5:30 Z2 (at 5:10 insert 12 min Z4)(QC)",
+      "run": "1:00 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:15 Z1 (100+ RPM)",
+      "run": "2:45 Z1 to Z2"
+    }]
+  }, {
+    "week": 27,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 12x75 @ 20 sec, 12x50 @ 15 sec, 12x25 @ 10 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "1:00 Z2 (at 0:10 insert 5x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 1:00 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 5x400 @ 45 sec, 8x50DR, 300cd",
+      "bike": "1:30 Z2 (at 0:50, insert 30 min. Z4",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "500 wu, 8x50DR, 6x (50+100+150) @ 20 sec, 8x50DR, 300 cd",
+      "bike": null,
+      "run": "1:30 Z2 (at 1:10, insert 12 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 6:00 Z2 (at 5:40 insert 15 min Z4)(QC)",
+      "run": "1:00 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:30 Z1 (100+ RPM)",
+      "run": "3:00 Z1 to Z2"
+    }]
+  }, {
+    "week": 28,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 5x200 @ 30 sec, 5x100 @ 20 sec, 5x50 @ 10 sec, 6x25 @ 5 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "0:45 Z2 (at 0:10 insert 3x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 0:45 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 3x150 @ 30 sec, 4x250 @ 30 sec, 3x150 @ 20 sec, 8x50DR, 300cd",
+      "bike": "1:00 Z2 (at 0:40, insert 15 min. Z4",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "3,500 comfortable",
+      "bike": null,
+      "run": "1:00 Z2 (at 0:40 insert 10 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 4:00 Z2 (at 3:45 insert 10 min Z4)(QC)",
+      "run": "1:00 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:00 Z1 (100+ RPM)",
+      "run": "2:00 Z1 to Z2"
+    }]
+  }, {
+    "week": 29,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 12x75 @ 20 sec, 12x50 @ 15 sec, 12x25 @ 10 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "0:45 Z2 (at 0:10 insert 2x6 min Z4 @ 2 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 0:45 Z2 (QC)",
+      "run": "0:15 Z2"
+    }, {
+      "day": 4,
+      "swim": "500wu, 8x50DR, 5x400 @ 45 sec, 8x50DR, 300cd",
+      "bike": "1:00 Z2 (at 0:45, insert 15 min. Z4",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": "500 wu, 8x50DR, 6x (50+100+150) @ 20 sec, 8x50DR, 300 cd",
+      "bike": null,
+      "run": "0:45 Z2 (at 0:30 insert 7.5 min. Z4)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "Trans: 2:00 Z2 (QC)",
+      "run": "0:30 Z2"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "1:00 Z1 (100+ RPM)",
+      "run": "1:00 Z1 to Z2"
+    }]
+  }, {
+    "week": 30,
+    "days": [{
+      "day": 1,
+      "swim": "REST",
+      "bike": "REST",
+      "run": "REST"
+    }, {
+      "day": 2,
+      "swim": "500wu, 8x50DR, 12x75 @ 20 sec, 12x50 @ 15 sec, 12x25 @ 10 sec, 8x50DR, 300cd",
+      "bike": null,
+      "run": "0:45 Z2 (at 0:10 insert 5x1 min Z4 @ 1 min Jog"
+    }, {
+      "day": 3,
+      "swim": null,
+      "bike": "Trans: 0:45 Z2 (QC)",
+      "run": "0:15 Z2"
+    }, {
+      "day": 4,
+      "swim": "0:30 easy",
+      "bike": "1:00 Z2 (at 0:15, insert 5x1 min PU @ 1 min Spin",
+      "run": null
+    }, {
+      "day": 5,
+      "swim": null,
+      "bike": null,
+      "run": "0:40 Z1 (at 0:10 insert 5x1 min PU @ 1 min Jog)"
+    }, {
+      "day": 6,
+      "swim": null,
+      "bike": "0:15 Z1 - easy",
+      "run": "0:20 Z1 - easy (in a.m.)"
+    }, {
+      "day": 7,
+      "swim": null,
+      "bike": "Fucking Race",
+      "run": "Fucking Race"
+    }]
   }]
 }
